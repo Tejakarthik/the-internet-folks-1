@@ -12,7 +12,7 @@ const Footer = () => {
         <Grid container spacing={6} justifyContent="centre" alignItems="flex-start">
           {/* Logo Section */}
           <Grid item xs={12} md={3} align="center">
-            <img className='w-[161px], h-[125px]' src={logo} />{/* Replace with an image if available */}
+            <img className='w-[161px], h-[125px]' src={logo} alt='logo' />{/* Replace with an image if available */}
 
           </Grid>
 
